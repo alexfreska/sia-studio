@@ -1,0 +1,8 @@
+name = "sia-studio"
+compatibility_date = "2026-04-21"
+
+# Static-asset worker: the built Vite SPA is served directly from the edge.
+# No worker script is needed — the `assets` binding handles everything.
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"

@@ -1,0 +1,18 @@
+node_modules
+dist
+*.local
+.DS_Store
+.env
+.env.*
+!.env.example
+test-results
+playwright-report
+blob-report
+.playwright-cache
+
+# Cloudflare / Wrangler
+.wrangler
+.dev.vars
+.dev.vars.*
+wrangler.*.toml
+worker-configuration.d.ts
